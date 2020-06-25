@@ -1,0 +1,52 @@
+{
+  "name": "next-starter-tailwind",
+  "version": "1.1.0",
+  "description": "Next.js starter styled with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorbryant/next-starter-tailwind.git"
+  },
+  "author": "Taylor Bryant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taylorbryant/next-starter-tailwind/issues"
+  },
+  "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "graphql-tag": "^2.10.3",
+    "graphql-url": "^2.0.5",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "swr": "0.2.3",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "9.4.4",
+    "@types/debounce": "3.0.0",
+    "@types/graphql": "14.5.0",
+    "@types/jest": "26.0.3",
+    "@types/next": "9.0.0",
+    "@types/node": "14.0.14",
+    "@types/query-string": "6.3.0",
+    "@types/react": "16.9.41",
+    "autoprefixer": "9.8.0",
+    "tailwindcss": "1.4.6",
+    "ts-jest": "26.1.1",
+    "ts-node": "8.10.2",
+    "tslint": "6.1.2",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.3.0",
+    "tslint-react": "5.0.0",
+    "typescript": "3.9.5"
+  }
+}
